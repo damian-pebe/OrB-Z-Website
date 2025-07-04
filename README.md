@@ -67,17 +67,19 @@
 
 ---
 
-## 🛠️ Dev Setup
+## 🛠️ Dev Setup 
+
+> Using PNPM
 
 ```bash
 # 1. Install dependencies
-npm install
+pnpm install
 
 # 2. Setup environment variables
 cp .env.example .env.local
 
 # 3. Run development server
-npm run dev
+pnpm run dev
 ````
 
 ---
