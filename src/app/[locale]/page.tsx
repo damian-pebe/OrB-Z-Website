@@ -1,6 +1,5 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { useUser } from "@/hooks/useUser";
 
 export default function Home() {
   const t = useTranslations("HomePage");
