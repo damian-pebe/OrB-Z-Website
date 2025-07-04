@@ -1,0 +1,14 @@
+{
+    "HomePage": {
+        "title": "Welcome to Orbz!",
+        "subtitle": "Your gateway to awesome web experiences.",
+        "about": "Learn more about us",
+        "cta": "Get Started"
+    },
+    "About": {
+        "title": "About Orbz",
+        "description": "Orbz is a modern platform for building amazing websites.",
+        "home": "Back to Home",
+        "team": "Meet the Team"
+    }
+}
