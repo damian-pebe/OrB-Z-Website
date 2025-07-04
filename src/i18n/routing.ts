@@ -7,6 +7,10 @@ export const routing = defineRouting({
   defaultLocale: "en",
   //change path name for SEO
   pathnames: {
+    "/": {
+      es: "/",
+      en: "/",
+    },
     "/about": {
       es: "/sobre-nosotros",
       en: "/about-us",
