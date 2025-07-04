@@ -19,10 +19,32 @@ export default function Home() {
   );
 }
 
+//! IMPORTANT 
+//? Usage of tanstack query
+// const UserProfile = ({ id }: { id: string }) => {
+//   const { data, isLoading, error } = useUser(id);
+
+//   if (isLoading) return <p>Loading...</p>;
+//   if (error) return <p>Error: {error.message}</p>;
+
+//   const userData = data as { user: { name: string } };
+//   return <div>{userData.user.name}</div>;
+// };
 
 
 //! IMPORTANT
-// FOR ASYNC COMPONENTS USE THIS INSTEAD TO CALL THE TRANSLATION
+//? for API-driven fetch (tanstack query)
+//* Fetch user from API, handle cache/errors -- Live sync / refetch / bg updates
+// const { data } = useUser();
+
+//? for global access without refetching (zustand)
+//* Auth info, token, role, static session
+// const user = useUserStore((s) => s.user); 
+
+
+
+//! IMPORTANT
+//? FOR ASYNC COMPONENTS USE THIS INSTEAD TO CALL THE TRANSLATION
 // import { getTranslations } from "next-intl/server";
 
 // export default async function HomePage() {
