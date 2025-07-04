@@ -1,0 +1,14 @@
+{
+    "HomePage": {
+        "title": "¡Bienvenido a Orbz!",
+        "subtitle": "Tu puerta de entrada a experiencias web increíbles.",
+        "about": "Aprende más sobre nosotros",
+        "cta": "Comenzar"
+    },
+    "About": {
+        "title": "Acerca de Orbz",
+        "description": "Orbz es una plataforma moderna para crear sitios web asombrosos.",
+        "home": "Volver al inicio",
+        "team": "Conoce al equipo"
+    }
+}
